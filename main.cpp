@@ -120,8 +120,10 @@ void PrintHelp() {
     Display::NewLine();
 
     Display::Print("\t `talk <character number>` -- initiate a conversation with a character");
+    Display::NewLine();
 
     Display::Print("\t `see invetory` -- see the contents of your inventory");
+    Display::NewLine();
 
     Display::Print("\t `exit` -- exit the game");
     Display::NewLine();
