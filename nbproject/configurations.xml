@@ -4,8 +4,15 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Character.h</itemPath>
       <itemPath>Color.h</itemPath>
+      <itemPath>DialogueTree.cpp</itemPath>
+      <itemPath>DialogueTree.h</itemPath>
       <itemPath>Display.h</itemPath>
+      <itemPath>HashTable.h</itemPath>
+      <itemPath>Inventory.cpp</itemPath>
+      <itemPath>Inventory.h</itemPath>
+      <itemPath>MergeSort.h</itemPath>
       <itemPath>Room.h</itemPath>
       <itemPath>World.h</itemPath>
     </logicalFolder>
@@ -32,7 +39,6 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>Character.h</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -50,7 +56,19 @@
       </item>
       <item path="Color.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="DialogueTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DialogueTree.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Display.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HashTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inventory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Inventory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MergeSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Room.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -89,7 +107,19 @@
       </item>
       <item path="Color.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="DialogueTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DialogueTree.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Display.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HashTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inventory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Inventory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MergeSort.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Room.cpp" ex="false" tool="1" flavor2="0">
       </item>

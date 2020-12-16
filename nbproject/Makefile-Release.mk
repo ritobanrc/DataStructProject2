@@ -36,6 +36,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Character.o \
+	${OBJECTDIR}/DialogueTree.o \
+	${OBJECTDIR}/Inventory.o \
 	${OBJECTDIR}/Room.o \
 	${OBJECTDIR}/World.o \
 	${OBJECTDIR}/main.o
@@ -69,6 +71,16 @@ ${OBJECTDIR}/Character.o: Character.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Character.o Character.cpp
+
+${OBJECTDIR}/DialogueTree.o: DialogueTree.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/DialogueTree.o DialogueTree.cpp
+
+${OBJECTDIR}/Inventory.o: Inventory.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Inventory.o Inventory.cpp
 
 ${OBJECTDIR}/Room.o: Room.cpp
 	${MKDIR} -p ${OBJECTDIR}

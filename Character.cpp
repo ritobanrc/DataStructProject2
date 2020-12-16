@@ -6,13 +6,31 @@
  */
 
 #include "Character.h"
+#include "Display.h"
 
-Character::Character() {
+Character::Character(std::string name) : name(name), tree(DialogueTree("")) {
 }
 
-Character::Character(const Character& orig) {
+Character::Character(const Character& orig) { }
+
+Character::~Character() { }
+
+void Character::Speak () {
+    Display::PrintBold("Talking to ");
+    Display::PrintBold(name);
+    Display::PrintBold(":");
+    Display::NewLine();
+
+    tree.Show();
 }
 
-Character::~Character() {
+void Character::SetDialogue(DialogueTree tree) {
+    this->tree = tree;
 }
+
+
+const std::string& Character::GetName() const {
+    return name;
+}
+
 
