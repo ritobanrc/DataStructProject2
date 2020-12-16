@@ -1,0 +1,14 @@
+EntranceHall {
+   description: "You enter a large cave, dimly lit by a small opening at the top."
+   pathways: GreatHall
+}
+
+GreatHall {
+    description: "A large, cavernous room, with the ceiling painted to look like the sky, the clouds almost appearing to move as though you were outside."
+    pathways: EntraceHall Courtyard
+}
+
+Courtyard {
+    description: "A vast and open lawn, with the Great Hall on one side, barracks and dormotories and apartments and all manner of other workplaces on the other"
+    pathways: EntraceHall
+}
